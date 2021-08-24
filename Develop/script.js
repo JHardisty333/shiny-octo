@@ -12,6 +12,7 @@ function userPrompt () {
   var symbolCharacter = confirm ('Do you want a special character in your password?');
   var numberCharacter = confirm ('Would you like numbers in your password?');
   var letterCharacter = confirm ('Would you like letters in your password?');
+  
   return {
     passLength,symbolCharacter,numberCharacter,letterCharacter
   }
