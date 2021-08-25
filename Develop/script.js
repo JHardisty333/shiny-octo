@@ -55,9 +55,10 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   var userAnswer = userPrompt();
   var password = generatePassword(userAnswer);
+  var passwordStr = password.join('');
   var passwordText = document.querySelector("#password");
 
-  passwordText.value = password;
+  passwordText.value = passwordStr;
 
 }
 
